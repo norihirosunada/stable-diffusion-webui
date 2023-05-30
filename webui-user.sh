@@ -3,6 +3,9 @@
 # Uncomment and change the variables below to your need:#
 #########################################################
 
+printf("webui-user,sh")
+dnf install wget git python3
+
 # Install directory without trailing slash
 #install_dir="/home/$(whoami)"
 
