@@ -4,7 +4,7 @@
 #########################################################
 
 printf "running webui-user.sh"
-apt install wget git python3 python3-venv || dnf install wget git python3 || pacman -S wget git python3
+apt update && apt install wget git python3 python3-venv
 
 # Install directory without trailing slash
 #install_dir="/home/$(whoami)"
