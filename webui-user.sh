@@ -3,8 +3,8 @@
 # Uncomment and change the variables below to your need:#
 #########################################################
 
-printf "running webui-user.sh"
-apt update && apt -y install wget git python3 python3-venv
+# printf "running webui-user.sh"
+# apt update && apt -y install wget git python3 python3-venv
 
 # Install directory without trailing slash
 #install_dir="/home/$(whoami)"

@@ -6,6 +6,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "fix": "eslint --fix ."
+    "fix": "eslint --fix .",
+    "build": "apt update && apt -y install wget git python3 python3-venv"
   }
 }
